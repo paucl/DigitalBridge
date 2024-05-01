@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/index_background.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 2px 0px rgb(168, 0, 168);
+}
+
+h4 {
+    color: mediumturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.col-12 {
+    margin-top: 20px;
+}
+
+
+/* Estilos personalizados para las respuestas */
+.comentario {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.principios {
+    margin-top: 20px;
+}
+
+.principios li {
+    list-style-type: lower-roman;
+    margin-bottom: 20px;
+}
